@@ -14,11 +14,11 @@ export default defineConfig({
         }),
     ],
 
-    // Aggiungo un alis per la cartella rescources
+    // Aggiungo un alias per la cartella rescources
     resolve: {
         alias: {
-            '~resources': '/resources/',
             '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+            '~resources': '/resources/'
         }
-    },
+   },
 });
